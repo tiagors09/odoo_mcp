@@ -1,0 +1,12 @@
+name: Odoo MCP Server
+version: 0.0.1
+schema: v1
+mcpServers:
+  - name: Odoo Server
+    command: uv
+    args:
+      - --directory
+      - /home/tiagors09/code/odoo_mcp
+      - run
+      - python
+      - src/code/server.py

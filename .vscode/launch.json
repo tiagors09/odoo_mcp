@@ -1,0 +1,15 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Python: Debug MCP Server",
+      "type": "debugpy",
+      "request": "launch",
+      "program": "${workspaceFolder}/src/code/server.py",
+      "console": "integratedTerminal",
+      "justMyCode": false,
+      "python": "${workspaceFolder}/.venv/bin/python",
+      "internalConsoleOptions": "neverOpen"
+    }
+  ]
+}
